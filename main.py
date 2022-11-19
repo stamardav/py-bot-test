@@ -13,7 +13,7 @@ def echo(update, context):
     update.message.reply_text(f"{text}")
 
 def help(update, context):
-    update.message.reply_text("cписок команд \n • /help - вывод помощи")
+    update.message.reply_text("cписок команд \n • /help - вывод доступных команд")
 
 
 def start(update, context):
