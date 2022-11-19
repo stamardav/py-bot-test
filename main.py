@@ -5,9 +5,9 @@ from telegram.ext import Updater, MessageHandler, Filters, CommandHandler
 
 def echo(update, context):
     text = update.message.text
-    if text.lower() in ['привет', 'приветик']:
+    if text.lower() in ['привет', 'приветик','ку']:
         text = "привет!"
-        if text.lower() in ['пока', 'прощай']:
+        if text.lower() in ['пока', 'прощай','пок']:
             text = "пока!"
 
     update.message.reply_text(f"{text}")
